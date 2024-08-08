@@ -1,4 +1,5 @@
 import { fetchImages } from './js/pixabay-api.js';
+import iziToast from 'izitoast';
 import {
   renderImages,
   clearGallery,
