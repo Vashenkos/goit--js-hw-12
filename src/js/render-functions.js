@@ -29,7 +29,7 @@ export function renderImages(images) {
   `
     )
     .join('');
-  gallery.innerHTML = markup;
+  gallery.insertAdjacentHTML('beforeend', markup);
   new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
